@@ -133,17 +133,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'aravinthkarthi5@gmail.com'
-EMAIL_HOST_PASSWORD = 'fihuffprtoenwour'
+#EMAIL_HOST_USER = Use Your Mail
+#EMAIL_HOST_PASSWORD = Use Your Password
 
-def ps():
-    s = ''
-    for i in list(range(2,0,-1))+list(range(4,2,-1))+list(range(6,4,-1))+list(range(8,6,-1)):
-        s += str(i)
-    s += chr(75)
-    s += "@"
-    for i in [114,116,104,105]:
-        s += chr(i)
-    return s
-
-#EMAIL_HOST_PASSWORD = ps()
+# Now Update of Google Account Can't use password directly. Authenticate 2-step authentication and copy the 16 digit in password column
