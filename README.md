@@ -1,11 +1,26 @@
 # CliqTrix 2022 Competition Hotel Management - Django 
 
-* The Hotel Management System has 5 different user types(each has different functions) : <br>
-- Admin 
-- Manager 
-- Receptionist 
-- Staff 
-- Guest
+#### The Hotel Management System has 5 different user types(each has different functions) : <br>
+ Admin , Manager , Receptionist , Staff and Guest
+## Admin 
+
+![](/ScreenShots/Booking%20Confirmation%20Admin.png)
+
+## Manager 
+
+![](/ScreenShots/Add%20Employees.png)
+
+## Receptionist 
+
+![](/ScreenShots/Events%20Page%20Admin.png)
+
+## Staff 
+
+![](/ScreenShots/Login%20Page.png)
+
+## Guest
+
+![](/ScreenShots/Book%20&%20Add%20People.png)
 
 ### In order to download and run the project (Needs Python 3 ):
 1. Install Pythpn and Django :
@@ -73,11 +88,11 @@ admin.save()
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
-Then, start the surver
+* Then, start the server
 ```shell
 python3 manage.py runserver
 ```
-* Now Works Well
+Now Works it. Copy and paste the IP address in browser
 
 ## Notes:
 #### Note 1: In the program, there are some payment page. No need to enter real credit-card informations. 
